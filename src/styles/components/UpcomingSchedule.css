@@ -1,0 +1,29 @@
+/* src/styles/components/UpcomingSchedule.css */
+.upcoming-schedule {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  width: 100%;
+  margin-top: -460px;
+  margin-bottom: 0px;
+}
+
+.upcoming-schedule h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.schedule-day-block {
+  margin-bottom: 1.75rem;
+}
+
+.schedule-day-block h4 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #334155;
+}

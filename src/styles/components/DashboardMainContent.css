@@ -1,0 +1,59 @@
+.dashboard-main-content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  height: 100vh;           
+  overflow-y: auto;        
+}
+.dashboard-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.anatomy-section {
+  width: 290px;
+  border-radius: 1rem 0 0 1rem;
+  background-color: #fff;
+}
+
+.anatomy-section img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem 0 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .top-row,
+  .bottom-row {
+    flex-direction: column;
+  }
+
+  .anatomy-section,
+  .health-status-cards {
+    width: 100%;
+    border-radius: 1rem;
+  }}
+  
+.first-section{
+  display: flex;
+  gap: -10px;
+}
+.second-section{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.col-sec{
+  display: flex;
+  flex-direction: column;
+}
+
